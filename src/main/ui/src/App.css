@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: rgb(18,18,18);
+  color: #eee;
+}
+
+/*
+.App {
+  text-align: center;
+  position: fixed;
+  bottom: 5rem;
+  width: 100%;
+}*/
+
+.App {
+  text-align: center;
+  position: relative;
+  height: 100vh}
+
+.MediaControl {
+    position: absolute;
+    bottom: 10rem;
+    left: calc(50vw - (/* width */88vw / 2));
+    width: 88vw;
+    margin: auto;
+}
